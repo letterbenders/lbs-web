@@ -1,0 +1,105 @@
+/***** Typography *****/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-family: 'Bitter', serif;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  font-weight: inherit;
+}
+h1 {
+  margin: 0 0 10px 0;
+  padding: 0;
+  font-size: 36px;
+  line-height: 40px;
+  color: #424242;
+}
+h2 {
+  margin: 0 0 10px 0;
+  padding: 0;
+  font-size: 30px;
+  line-height: 34px;
+  color: #424242;
+}
+h3 {
+  margin: 0 0 10px 0;
+  padding: 0;
+  font-size: 24px;
+  line-height: 28px;
+  color: #424242;
+}
+h4 {
+  margin: 0 0 10px 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 22px;
+  color: #424242;
+}
+h5 {
+  margin: 0 0 10px 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 16px;
+  color: #424242;
+}
+h6 {
+  margin: 0 0 10px 0;
+  padding: 0;
+  font-size: 12px;
+  line-height: 16px;
+  color: #424242;
+}
+p {
+  margin: 0;
+  padding: 0 0 10px 0;
+  line-height: 20px;
+}
+strong {
+  font-weight: bold;
+  color: #424242;
+}
+em {
+  font-style: italic;
+  color: #666;
+}
+small {
+  font-size: 80%;
+}
+sup,
+sub {
+  height: 0;
+  line-height: 5px;
+  vertical-align: baseline;
+  _vertical-align: bottom;
+  position: relative;
+  font-size: 80%;
+}
+sup {
+  bottom: 5px;
+}
+sub {
+  top: 5px;
+}
+code,
+pre {
+  padding: 0 3px 2px;
+  color: #424242;
+  font-size: 11px;
+}
+code {
+  padding: 0 4px 2px 4px;
+  background-color: #000;
+  border: 1px solid #000;
+  color: #f1f1f1;
+}
